@@ -20,7 +20,12 @@ public class LibroRepository {
          repository.crearLibro(libro);
      }
      
-
+     public void listarLibros(){
+         repository.listarLibros();
+     }
+     
+     
+     
     
     
 }           
